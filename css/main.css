@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: #EAEAEA;
 }
 
 .container {
@@ -14,27 +14,27 @@ body {
 
 .site-nav {
     margin: 0;
-    background-color: #333;
+    background-color: #FFFFFF;
     align-items: center;
     display: flex;
     padding: 15px;
     border: 2px solid #fff;
     padding-left: 450px;
     margin-top: 30px;
-    box-shadow: 10px 5px 5px red;
+    box-shadow: 10px 5px 5px #333;
 }
 
 .site-nav__item {
+    list-style: none;
     color: rgb(255, 255, 255);
     padding: 0;
     margin: 0;
-    list-style: none;
     padding-left: 40px;
 }
 
 .site-nav__item:hover {
     opacity: 0.8;
-    box-shadow: 10px 5px 5px red;
+
 }
 
 .site-nav__item:active {
@@ -54,6 +54,7 @@ body {
 }
 
 .list-project {
+    list-style: none;
     padding: 20px;
     margin: 0;
     display: flex;
@@ -69,10 +70,9 @@ body {
 .box-project {
     width: 250px;
     height: 200px;
-    background-color: #333;
-    border: 2px solid #fff;
+    background-color: #FFFFFF;
     margin: 20px;
-    box-shadow: 10px 5px 5px red;
+    box-shadow: 10px 5px 5px #333;
 }
 
 .title-main {
